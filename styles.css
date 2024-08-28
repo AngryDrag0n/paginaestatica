@@ -185,21 +185,3 @@ footer{
 footer p{
     color: #fff;
 }
-
-@media (max-width: 768px) {
-    .card {
-        flex-basis: calc(50% - 20px);
-        max-width: calc(50% - 20px);
-    }
-
-    .best-seller, .new-arrivals {
-        flex-basis: calc(100% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .card {
-        flex-basis: calc(100% - 20px);
-        max-width: calc(100% - 20px);
-    }
-}
